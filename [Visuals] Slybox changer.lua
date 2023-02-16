@@ -3,9 +3,8 @@ if fs.is_dir("csgo\\materials\\skybox") == false then -- Checks for custom skybo
 end
 
 local skyboxes = {
-    "None",
+    "--",
     "sky_lunacy",
-    "sky_aurora"
   --"skybox name here" put skybox files in csgo\\materials\\skybox (if directory dosent exist, simply run the lua once then check the directory)
 }
 
